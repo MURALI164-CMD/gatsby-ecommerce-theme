@@ -4,7 +4,7 @@ import React, { useContext } from 'react';
 import AddItemNotificationContext from '../../context/AddItemNotificationProvider';
 
 import Button from '../Button';
-import Icon from '../Icons/Icon';
+import Icon from '../Icons/Icon';  
 
 import * as styles from './AddNotification.module.css';
 
