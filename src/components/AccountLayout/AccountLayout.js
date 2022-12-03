@@ -14,7 +14,7 @@ const AccountLayout = ({ children }) => {
           <div className={styles.childrenContainer}>{children}</div>
         </div>
       </Container>
-    </div>
+    </div>  
   );
 };
 
