@@ -4,7 +4,7 @@ import * as styles from './Banner.module.css';
 const Banner = (props) => {
   const {
     maxWidth,
-    name,
+    name,  
     subtitle,
     color,
     bgImage,
