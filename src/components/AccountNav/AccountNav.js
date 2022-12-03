@@ -6,7 +6,7 @@ const AccountNav = (props) => {
   const handleLogout = () => {
     window.localStorage.removeItem('key');
     navigate('/');
-  };
+  };    
 
   return (
     <div className={styles.root}>
