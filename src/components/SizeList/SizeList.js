@@ -3,7 +3,7 @@ import React from 'react';
 import BoxOption from '../BoxOption';
 import * as styles from './SizeList.module.css';
 
-const SizeList = (props) => {
+const SizeList = (props) => {  
   const { sizeList, setActiveSize, activeSize } = props;
   return (
     <div className={styles.root}> 
