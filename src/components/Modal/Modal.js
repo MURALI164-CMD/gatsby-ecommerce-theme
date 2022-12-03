@@ -7,7 +7,7 @@ const Modal = ({ children, visible, close }) => {
     return () => window.removeEventListener('keydown', close);
   }, [close]);
 
-  return (
+  return (   
     <div
       className={`${styles.root} ${
         visible === true ? styles.show : styles.hide
