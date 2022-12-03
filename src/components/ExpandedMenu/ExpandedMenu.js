@@ -4,7 +4,7 @@ import React from 'react';
 import * as styles from './ExpandedMenu.module.css';
 
 const ExpandedMenu = (props) => {
-  const { menu } = props;
+  const { menu } = props;  
 
   if (menu === null || menu === undefined) return <React.Fragment />;
   return (
