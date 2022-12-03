@@ -9,7 +9,7 @@ const Drawer = ({
   visible,
   close,
   top = '0px',
-  isReverse = false,
+  isReverse = false,  
   hideCross = false,
 }) => {
   useEffect(() => {
